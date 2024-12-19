@@ -1,0 +1,128 @@
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 4rem 2rem;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .contact-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2.5rem;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    padding: 2rem;
+    background-color: #121212;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info li a {
+    color: #c78c3f;
+    text-decoration: none;
+  }
+  
+  .contact-info li i {
+    color: #c78c3f;
+    font-size: 1.2rem;
+    margin-right: 0.75rem;
+  }
+  
+  .contact-info .social-icons a {
+    color: #c78c3f;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info .social-icons a:hover {
+    color: #fff;
+  }
+  
+  /* Google Form Section */
+  .contact-google-form {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-google-form h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-google-form p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .google-form-button {
+    display: inline-block;
+    background-color: #c78c3f;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-form-button:hover {
+    background-color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-info,
+    .contact-google-form {
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+/* General Styling */
+.why-choose-us {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    text-align: center;
+    font-family: "Arial, sans-serif";
+  }
+  
+  .why-choose-us .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .why-choose-us p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* Features Grid */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  
+  .feature-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .feature-card .icon {
+    font-size: 2.5rem;
+    color: #c78c3f;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

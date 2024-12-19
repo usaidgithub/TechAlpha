@@ -1,0 +1,96 @@
+/* General Styling */
+.internships {
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+    font-family: "Arial, sans-serif";
+    text-align: center;
+  }
+  
+  .internships-content {
+    margin-bottom: 2rem;
+  }
+  
+  .internships-content h2 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .internships-content p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Grid Layout for Internship Cards */
+  .internships-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  
+  .internship-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .internship-card h3 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .internship-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .apply-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #c78c3f;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-link:hover {
+    background-color: #a6762e;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .internships-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .internships-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .internship-card {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .internships-content h2 {
+      font-size: 2rem;
+    }
+  
+    .internships-content p {
+      font-size: 1rem;
+    }
+  }
+  
