@@ -13,17 +13,16 @@ const HeroSection = () => {
       transition={{ duration: 0.6 }}
     >
       <div className="hero-content">
-        <h1>Empower Your Career with TechAlpha</h1>
+        <h1>You Imagine. We Build Your AI.</h1>
         <p>
-          Kickstart your career with practical virtual internships, skill-building
-          opportunities, and verified certifications.
+           Say what you need, and we’ll turn it into a custom AI agent — fully functional, private, and ready to deploy. No coding needed.
         </p>
         <a href="#internships" className="hero-cta-button">
-          Explore Internships 
+          Request Your Agent
         </a>
       </div>
       <div className="hero-image">
-        <img src={heroImage} alt="TechAlpha Opportunities" />
+        <img src={heroImage} alt="Custom AI Agent Illustration" />
       </div>
     </motion.section>
   );

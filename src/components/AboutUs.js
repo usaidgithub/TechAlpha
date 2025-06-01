@@ -13,16 +13,15 @@ const AboutUs = () => {
       transition={{ duration: 0.6 }}
     >
       <div className="about-content">
-        <h2>About TechAlpha</h2>
+        <h2>About MakeMyAI</h2>
         <p>
-          TechAlpha is dedicated to empowering students and professionals by offering
-          virtual internships that bridge the gap between academia and the corporate world. 
-          Our mission is to foster skill development, career growth, and industry readiness
-          through a cutting-edge digital platform.
+           MakeMyAI is your partner in building custom AI agents without writing a single line of code. 
+           Whether you need a smart assistant, automation bot, or a content generator, we transform your 
+           ideas into powerful, ready-to-use AI solutions.
         </p>
         <p>
-          We strive to provide practical learning experiences, verified certifications,
-          and a pathway to success for all our participants.
+           Our mission is to simplify AI adoption by offering private, scalable, and fully integrated agents 
+           tailored specifically to your needs — all backed by human-led support and end-to-end customization.
         </p>
       </div>
       <div className="about-image">

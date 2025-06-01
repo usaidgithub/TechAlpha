@@ -1,6 +1,7 @@
 import React from "react";
 import "./Internships.css";
 import { motion } from "framer-motion";
+
 const Internships = () => {
   return (
     <motion.section
@@ -12,48 +13,45 @@ const Internships = () => {
       transition={{ duration: 0.6 }}
     >
       <div className="internships-content">
-        <h2>Our Virtual Internships</h2>
+        <h2>What Our Users Say</h2>
         <p>
-          Explore a variety of virtual internships designed to help you gain hands-on
-          experience and build industry-ready skills from the comfort of your home.
-          Each internship comes with guided mentorship, real-world projects, and a
-          verified certificate upon completion.
+          Hear directly from people who have used MakeMyAI to bring AI into their businesses. 
+          These testimonials showcase the real impact and reliability of our no-code AI solutions.
         </p>
       </div>
 
       <div className="internships-grid">
         <div className="internship-card">
-          <h3>Web Development</h3>
+          <h3>Riya Shah, Startup Founder</h3>
           <p>
-            Learn to build stunning and responsive websites using HTML, CSS,
-            JavaScript, React.js and different web technologies.
+            MakeMyAI helped us build a support bot that cut our response time by 80%. 
+            The process was seamless, and the results were beyond what we expected.
           </p>
-          <a href="https://forms.gle/sWrQzTkePc4JkDaB9" className="apply-link" target="_blank" rel="noopener noreferrer">Apply Now</a>
         </div>
+
         <div className="internship-card">
-  <h3>Python Development</h3>
-  <p>
-    Explore Python programming by building real-world applications, focusing on problem-solving and automation.
-  </p>
-  <a href="https://forms.gle/sWrQzTkePc4JkDaB9" className="apply-link" target="_blank" rel="noopener noreferrer">Apply Now</a>
-</div>
+          <h3>Akash Mehta, Sales Manager</h3>
+          <p>
+            We replaced our lead form with a smart AI agent and started seeing better 
+            conversion rates within days. It's like having a 24x7 salesperson online.
+          </p>
+        </div>
 
-<div className="internship-card">
-  <h3>Full Stack Development</h3>
-  <p>
-    Build web apps by mastering front-end and back-end technologies like React, Node.js, and databases.
-  </p>
-  <a href="https://forms.gle/sWrQzTkePc4JkDaB9" className="apply-link" target="_blank" rel="noopener noreferrer">Apply Now</a>
-</div>
+        <div className="internship-card">
+          <h3>Neha Kulkarni, HR Executive</h3>
+          <p>
+            We now use MakeMyAI for resume screening. It quickly sorts candidates and 
+            saves us hours every week. It’s a powerful time-saving tool for HR tasks.
+          </p>
+        </div>
 
-<div className="internship-card">
-  <h3>Software Development</h3>
-  <p>
-    Dive into software engineering, focusing on designing, coding, testing, and deploying scalable applications.
-  </p>
-  <a href="https://forms.gle/sWrQzTkePc4JkDaB9" className="apply-link" target="_blank" rel="noopener noreferrer">Apply Now</a>
-</div>
-
+        <div className="internship-card">
+          <h3>Dr. Ravi Patil, Healthcare Pro</h3>
+          <p>
+            Their AI assistant answers patient queries accurately using our content. 
+            It reduced our staff workload and improved response consistency instantly.
+          </p>
+        </div>
       </div>
     </motion.section>
   );

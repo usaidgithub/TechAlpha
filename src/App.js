@@ -13,23 +13,31 @@ import HowItWorks from './components/HowItWorks';
 import FAQs from './components/FAQs';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+
 function App() {
   return (
     <>
-    <Router>
-      <Routes>
-        <Route exact path='/' element={<><Navbar/> 
-        <HeroSection/> 
-        <AboutUs/> 
-        <Internships/> 
-        <WhyChooseUs/>
-        <HowItWorks/>
-        <FAQs/>
-        <ContactUs/>
-        <Footer/>
-        </>}/>
-      </Routes>
-    </Router>
+      <Router basename="/TechAlpha">
+        <Routes>
+          <Route 
+            exact 
+            path="/" 
+            element={
+              <>
+                <Navbar /> 
+                <HeroSection /> 
+                <AboutUs /> 
+                <Internships /> 
+                <WhyChooseUs />
+                <HowItWorks />
+                <FAQs />
+                <ContactUs />
+                <Footer />
+              </>
+            }
+          />
+        </Routes>
+      </Router>
     </>
   );
 }

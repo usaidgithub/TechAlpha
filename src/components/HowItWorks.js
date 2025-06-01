@@ -1,33 +1,36 @@
 import React from "react";
 import "./HowItWorks.css";
 import { motion } from "framer-motion";
+
 const HowItWorks = () => {
   const steps = [
     {
       number: 1,
-      title: "Explore Opportunities",
+      title: "Describe Your Idea",
       description:
-        "Browse a wide range of virtual internships across various domains and industries.",
-      icon: "🔍",
+        "Tell us what you want your AI agent to do — no technical knowledge needed.",
+      icon: "💡",
     },
     {
       number: 2,
-      title: "Apply Online",
-      description: "Select your preferred internship and apply in just a few clicks.",
-      icon: "🖊️",
+      title: "We Build It",
+      description:
+        "Our team develops a fully custom AI agent tailored to your exact needs and use case.",
+      icon: "🛠️",
     },
     {
       number: 3,
-      title: "Learn & Upskill",
+      title: "Integrate & Deploy",
       description:
-        "Participate in real-world projects guided by industry experts to enhance your skills.",
-      icon: "📈",
+        "Connect your AI with your apps or tools, and launch it for real-world use.",
+      icon: "🚀",
     },
     {
       number: 4,
-      title: "Get Certified",
-      description: "Receive a verified certificate upon successful completion of the internship.",
-      icon: "🏆",
+      title: "Get Ongoing Support",
+      description:
+        "We stay with you post-launch to refine and optimize your AI as your needs grow.",
+      icon: "🤝",
     },
   ];
 
@@ -36,13 +39,13 @@ const HowItWorks = () => {
       id="how-it-works"
       className="how-it-works"
       initial={{ opacity: 0, y: 50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.05 }} // Lower amount for earlier trigger
-  transition={{ duration: 0.6 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.05 }}
+      transition={{ duration: 0.6 }}
     >
       <div className="content-wrapper">
         <h2>How It Works</h2>
-        <p>Getting started with TechAlpha is simple and straightforward. Follow these steps:</p>
+        <p>Getting your own custom AI agent is simple. Here's how MakeMyAI helps you every step of the way:</p>
 
         <div className="steps-grid">
           {steps.map((step, index) => (

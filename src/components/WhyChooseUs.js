@@ -2,26 +2,26 @@ import React from "react";
 import "./WhyChooseUs.css";
 import { motion } from "framer-motion";
 const WhyChooseUs = () => {
-  const features = [
+   const features = [
     {
-      title: "Expert-Led Internships",
-      description: "Gain real-world experience through internships designed by industry experts.",
-      icon: "📚",
+      title: "Fully Custom Agents",
+      description: "We build AI tailored to your exact needs — from virtual assistants to automation bots.",
+      icon: "🤖",
     },
     {
-      title: "Verified Certificates",
-      description: "Earn recognized certifications to showcase your skills and achievements.",
-      icon: "🎓",
+      title: "API Integration",
+      description: "Easily connect your AI agent with existing platforms and tools via powerful integrations.",
+      icon: "🔗",
     },
     {
-      title: "Flexible and Remote",
-      description: "Learn at your own pace with internships that fit your schedule.",
-      icon: "💻",
+      title: "Private & Secure",
+      description: "Your AI runs in isolated, encrypted environments to ensure complete privacy and control.",
+      icon: "🔒",
     },
     {
-      title: "Job-Ready Skills",
-      description: "Get hands-on training to bridge the gap between academics and industry.",
-      icon: "🚀",
+      title: "Human-Led Support",
+      description: "Our expert team is here to guide you at every step — from ideation to deployment.",
+      icon: "👨‍💻",
     },
   ];
 
@@ -35,10 +35,10 @@ const WhyChooseUs = () => {
       transition={{ duration: 0.6 }}
     >
       <div className="content-wrapper">
-        <h2>Why Choose TechAlpha?</h2>
+        <h2>Why Choose MakeMyAI?</h2>
         <p>
-          At TechAlpha, we are dedicated to empowering students with the skills and knowledge
-          required to excel in their careers. Here’s what sets us apart:
+           MakeMyAI makes it effortless to build custom AI agents that work exactly the way you need. 
+          Here’s why innovators and teams trust us:
         </p>
 
         <div className="features-grid">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../assests/logo-png.png";
+import logo from "../assests/AIagent.jpeg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="logo">
         <img src={logo} alt="TechAlpha Logo" />
-        <h1>TechAlpha</h1>
+        <h1>MAKEMYAI</h1>
       </div>
 
       {/* Hamburger Button */}
@@ -28,15 +28,12 @@ const Navbar = () => {
       <ul className={`nav-links ${isMenuOpen ? "nav-active" : ""}`}>
         <li><a href="#home" onClick={toggleMenu}>Home</a></li>
         <li><a href="#about" onClick={toggleMenu}>About Us</a></li>
-        <li><a href="#internships" onClick={toggleMenu}>Internships</a></li>
+        <li><a href="#internships" onClick={toggleMenu}>Testinomals</a></li>
         <li><a href="#why-choose-us" onClick={toggleMenu}>Why Choose Us</a></li>
         <li><a href="#how-it-works" onClick={toggleMenu}>How It Works</a></li>
         <li><a href="#faqs" onClick={toggleMenu}>FAQs</a></li>
         <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
         {/* Apply Button in Dropdown */}
-        <li className="dropdown-apply-button">
-          <a href="https://forms.gle/sWrQzTkePc4JkDaB9" onClick={toggleMenu} target="_blank" rel="noopener noreferrer">Apply Now</a>
-        </li>
       </ul>
     </nav>
   );
