@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="logo">
         <img src={logo} alt="TechAlpha Logo" />
-        <h1>MAKEMYAI</h1>
+        <h1>MakeMyAI</h1>
       </div>
 
       {/* Hamburger Button */}

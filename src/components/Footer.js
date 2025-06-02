@@ -15,8 +15,8 @@ const Footer = () => {
                 <div className="content-wrapper">
                     <div className="footer-columns">
                         <div className="footer-logo">
-                            <h2>TechAlpha</h2>
-                            <p>Empowering students with virtual internships and certifications.</p>
+                            <h2>MakeMyAI</h2>
+                            <p>Empowering businesses with AI-driven solutions and automation.</p>
                         </div>
                         <div className="footer-links">
                             <h3>Quick Links</h3>
@@ -44,7 +44,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-bottom">
-                        <p>© {new Date().getFullYear()} TechAlpha. All rights reserved.</p>
+                        <p>© {new Date().getFullYear()} MakeMyAI. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
