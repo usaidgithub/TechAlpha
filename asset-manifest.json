@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/TechAlpha/static/css/main.b45d4636.css",
-    "main.js": "/TechAlpha/static/js/main.411f84a4.js",
+    "main.js": "/TechAlpha/static/js/main.c8e681f6.js",
     "static/js/488.9d97ac5d.chunk.js": "/TechAlpha/static/js/488.9d97ac5d.chunk.js",
     "static/media/hero-img.webp": "/TechAlpha/static/media/hero-img.c9a5a689f651a9272b3c.webp",
     "static/media/AIagent.jpeg": "/TechAlpha/static/media/AIagent.aa5844bae40cc6621456.jpeg",
     "static/media/about-us.png": "/TechAlpha/static/media/about-us.bd296e6ee0226859d2ca.png",
     "index.html": "/TechAlpha/index.html",
     "main.b45d4636.css.map": "/TechAlpha/static/css/main.b45d4636.css.map",
-    "main.411f84a4.js.map": "/TechAlpha/static/js/main.411f84a4.js.map",
+    "main.c8e681f6.js.map": "/TechAlpha/static/js/main.c8e681f6.js.map",
     "488.9d97ac5d.chunk.js.map": "/TechAlpha/static/js/488.9d97ac5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b45d4636.css",
-    "static/js/main.411f84a4.js"
+    "static/js/main.c8e681f6.js"
   ]
 }
